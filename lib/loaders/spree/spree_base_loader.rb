@@ -17,7 +17,7 @@ module DataShift
 
   class SpreeBaseLoader < LoaderBase
 
-    include DataShift::CsvLoading
+    include DataShift::CsvLoader
     include DataShift::ExcelLoading
     include DataShift::ImageLoading
 
